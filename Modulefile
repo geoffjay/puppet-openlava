@@ -1,0 +1,8 @@
+name 'geoffjay-openlava'
+version '0.1.0'
+source 'git://github.com/geoffjay/puppet-openlava.git'
+author 'geoffjay'
+license 'GPLv2'
+summary 'openlava installation and configuration'
+description 'Module for configuring openlava'
+project_page 'http://github.com/geoffjay/puppet-openlava'

@@ -1,0 +1,32 @@
+{
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "Fedora"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "name": "geoffjay-openlava",
+  "version": "0.1.0",
+  "author": "geoffjay",
+  "summary": "openlava installation and configuration",
+  "license": "GPLv2",
+  "source": "git://github.com/geoffjay/puppet-openlava.git",
+  "project_page": "http://github.com/geoffjay/puppet-openlava",
+  "issues_url": "https://github.com/geoffjay/puppet-openlava/issues",
+  "description": "Module for configuring openlava",
+  "dependencies": [
+    { "name": "puppetlabs-stdlib", "version_requirement": ">= 3.2.0 <5.0.0" },
+    { "name": "stahnma-epel", "version_requirement": "0.x" }
+  ]
+}
