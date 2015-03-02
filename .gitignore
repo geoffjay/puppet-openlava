@@ -1,0 +1,6 @@
+*.swp
+tags
+Gemfile.lock
+pkg/
+spec/fixtures/modules/
+spec/fixtures/manifests/
